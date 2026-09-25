@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistenza — KeyBook</title>
+<meta name="description" content="Domande frequenti e contatti per l'app KeyBook: sbobinature universitarie, senza account.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Newsreader:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f8fa;
+    --surface-alt: #e9eff4;
+    --border: #e0e7ed;
+    --text: #101820;
+    --muted: #566270;
+    --tenue: #67727f;
+    --primary: #15558a;
+    --inverse: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e1621;
+      --surface: #16202c;
+      --surface-alt: #1e2b39;
+      --border: #263544;
+      --text: #f1f5f9;
+      --muted: #9faebc;
+      --tenue: #93a2b1;
+      --primary: #7fbce8;
+      --inverse: #0e1621;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Archivo, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-text-size-adjust: 100%;
+  }
+  .foglio { max-width: 42rem; margin: 0 auto; padding: 56px 22px 72px; }
+
+  .occhiello {
+    display: flex; align-items: center; gap: 9px;
+    font-size: 11.5px; font-weight: 700; letter-spacing: 1.6px;
+    text-transform: uppercase; color: var(--tenue); margin-bottom: 14px;
+  }
+  .punto { width: 7px; height: 7px; border-radius: 2px; background: var(--primary); }
+
+  h1 {
+    font-family: Newsreader, Georgia, serif; font-weight: 600;
+    font-size: clamp(30px, 7vw, 40px); line-height: 1.12;
+    letter-spacing: -0.02em; margin: 0 0 10px;
+  }
+  .data { color: var(--tenue); font-size: 13.5px; margin: 0 0 32px; }
+
+  h2 {
+    font-family: Newsreader, Georgia, serif; font-weight: 600;
+    font-size: 23px; line-height: 1.25; letter-spacing: -0.01em;
+    margin: 40px 0 12px; padding-top: 22px; border-top: 1px solid var(--border);
+  }
+  h3 { font-size: 15px; font-weight: 700; margin: 24px 0 6px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--primary); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  ul { margin: 0 0 14px; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  li::marker { color: var(--tenue); }
+  strong { font-weight: 700; }
+
+  .sintesi {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 18px; padding: 20px 22px; margin-bottom: 8px;
+  }
+  .sintesi p:last-child { margin-bottom: 0; }
+  .sintesi ul { margin-bottom: 0; }
+
+  .nota {
+    background: var(--surface-alt); border-radius: 14px;
+    padding: 14px 16px; font-size: 14.5px; color: var(--muted);
+  }
+  .nota p:last-child { margin-bottom: 0; }
+
+  footer {
+    margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border);
+    font-size: 13px; color: var(--tenue);
+  }
+</style>
+</head>
+<body>
+<main class="foglio">
+
+  <div class="occhiello"><span class="punto"></span>KeyBook</div>
+  <h1>Assistenza</h1>
+  <p class="data">Ultimo aggiornamento 25 settembre 2026</p>
+
+  <div class="sintesi">
+    <p><strong>Scrivici.</strong> Per qualsiasi problema con l'app, per segnalare un errore o per
+    chiedere una lezione che non trovi:
+    <a href="mailto:g.nicolosi@keyover.it">g.nicolosi@keyover.it</a>.</p>
+    <p>Se preferisci restare anonimo, dentro l'app trovi il modulo «Lascia un consiglio» nella
+    sezione <strong>Chi siamo</strong>: non chiede né nome né contatti, ma proprio per questo non
+    possiamo risponderti.</p>
+  </div>
+
+  <h2>Domande frequenti</h2>
+
+  <h3>Devo registrarmi per leggere le lezioni?</h3>
+  <p>No. KeyBook si apre e si usa senza account: non chiediamo nome, email o numero di telefono.
+  Il catalogo, la lettura, il download e la condivisione funzionano subito dopo l'installazione.</p>
+
+  <h3>Perché ogni lezione ha due documenti?</h3>
+  <p>Perché servono in momenti diversi. La <strong>sbobinata</strong> è la trascrizione integrale:
+  la apri quando cerchi il passaggio esatto o l'esempio fatto a lezione. La
+  <strong>migliorata</strong> è lo stesso contenuto riscritto come riassunto che spiega gli
+  argomenti: la apri quando devi capire, o quando ripassi il giorno prima dell'esame.</p>
+
+  <h3>Una lezione dice «migliorata in lavorazione». Che significa?</h3>
+  <p>Che la trascrizione c'è già, ma la versione riscritta non è ancora pronta. La scheda te lo dice
+  apertamente invece di lasciarti cercare un documento che non esiste. Ricontrolla dopo qualche
+  giorno: quando è pronta compare nella stessa scheda, senza bisogno di aggiornare l'app.</p>
+
+  <h3>Non trovo la lezione che mi serve.</h3>
+  <p>Il catalogo si filtra per corso di laurea, materia e anno accademico, e la ricerca lavora
+  sull'intero archivio: titolo, descrizione e materia. Se hai applicato dei filtri, toglili prima di
+  cercare. Se ancora non c'è, la lezione non è stata pubblicata: scrivici e ci mettiamo al lavoro.</p>
+
+  <h3>Il documento non si apre.</h3>
+  <p>Quasi sempre è la connessione: i documenti si scaricano dai nostri server al momento
+  dell'apertura. Prova a chiudere e riaprire la scheda della lezione. Se il problema resta, usa il
+  pulsante <strong>Scarica</strong> e apri il file con il lettore PDF del telefono: se si apre da lì,
+  segnalacelo indicando titolo della lezione e modello di telefono.</p>
+
+  <h3>Posso leggere senza connessione?</h3>
+  <p>Sì, ma va scaricato prima. Una volta premuto <strong>Scarica</strong> il file è sul telefono e
+  si apre con qualsiasi lettore PDF anche in aereo o senza campo. I file scaricati dall'app vengono
+  rimossi quando disinstalli KeyBook.</p>
+
+  <h3>Come mando una lezione a un compagno di corso?</h3>
+  <p>Con <strong>Condividi</strong>, nella schermata della lezione. Il link che parte funziona anche
+  per chi non ha l'app installata.</p>
+
+  <h3>L'app è troppo chiara di notte.</h3>
+  <p>KeyBook segue il tema del telefono. Attiva la modalità scura nelle impostazioni di sistema e
+  l'app passa al fondo scuro da sola, senza riavviarla.</p>
+
+  <h3>Come cancello i miei dati?</h3>
+  <p>Non c'è nulla da cancellare: l'app non raccoglie dati che ti riguardano e non sappiamo chi sei.
+  Quello che resta sul telefono — i documenti scaricati e il conteggio dei consigli inviati oggi —
+  sparisce disinstallando l'app. I dettagli sono nell'<a href="./">informativa sulla privacy</a>.</p>
+
+  <h3>Cos'è il lucchetto in alto a destra?</h3>
+  <p>L'accesso all'area riservata a chi pubblica le lezioni. Serve una password assegnata solo agli
+  amministratori del catalogo: non è possibile registrarsi dall'app, e non c'è nulla di utile lì
+  dentro per chi studia.</p>
+
+  <h2>Segnalare un contenuto</h2>
+  <p>Se sei un docente o un titolare di diritti e ritieni che un documento pubblicato non debba
+  esserci, scrivici a <a href="mailto:g.nicolosi@keyover.it">g.nicolosi@keyover.it</a> indicando la
+  lezione e il motivo. Rimuoviamo il materiale contestato mentre verifichiamo la segnalazione, non
+  dopo.</p>
+
+  <h2>Contatti</h2>
+  <p>KeyBook è ideata e progettata da Gianluca Nicolosi e Matteo Nicolosi. L'infrastruttura
+  tecnologica è curata da Key Over.</p>
+  <p>Email: <a href="mailto:g.nicolosi@keyover.it">g.nicolosi@keyover.it</a><br>
+  Informativa sulla privacy: <a href="./">zkronoskron149.github.io/keybook-privacy</a></p>
+
+  <footer>
+    KeyBook — sbobinature universitarie. Infrastruttura tecnologica a cura di Key Over.
+  </footer>
+
+</main>
+</body>
+</html>
